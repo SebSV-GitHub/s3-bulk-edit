@@ -2,6 +2,7 @@
   "name": "s3-bulk-edit",
   "description": "Edit a batch of files in AWS S3",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node .",
@@ -12,7 +13,9 @@
     "url": "git+https://github.com/SebSV-GitHub/s3-bulk-edit.git"
   },
   "keywords": [
-    "NodeJS", "AWS", "S3"
+    "NodeJS",
+    "AWS",
+    "S3"
   ],
   "author": "Sebastian Suarez Valencia <apogees-miscue-0t@icloud.com> (https://www.sebsv.com)",
   "license": "MIT",
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/SebSV-GitHub/s3-bulk-edit#readme",
   "dependencies": {
-    "aws-sdk": "^2.1221.0"
+    "@aws-sdk/client-s3": "^3.171.0",
+    "minimist": "^1.2.6"
   }
 }
