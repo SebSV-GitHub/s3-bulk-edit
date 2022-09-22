@@ -17,5 +17,19 @@ aws_secret_access_key = <your secret key>
 To run the project use the command:
 
 ```sh
-npm start
+npm start -- --region=REGION --bucket-name=BUCKET-NAME --search=SEARCH-VALUE --replace=REPLACE-VALUE
 ```
+
+### Options ⚙️
+
+#### Required
+
+- `--region=REGION`
+- `--bucket-name=BUCKET-NAME`
+- `--search=SEARCH_VALUE`
+- `--replace=REPLACE_VALUE`
+
+#### Optional
+
+- `--folder=FOLDER_VALUE`
+- `--cache=CACHE-CONTROL-VALUE`
